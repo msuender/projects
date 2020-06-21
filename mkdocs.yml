@@ -1,0 +1,32 @@
+# Project information
+site_name: IoT Projects
+site_url: https://squidfunk.github.io/mkdocs-material/
+site_author: Markus Sünder
+site_description: >-
+  Kleiner Überblick über IoT Projekte
+
+# Page tree
+nav:
+  - Home: index.md
+  - About: about.md
+  - Pages:
+    - Project1: pages/Project1.md
+
+# Configuration
+theme:
+  name: material
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - git-revision-date-localized
