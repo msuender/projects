@@ -15,6 +15,10 @@ nav:
 # Configuration
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: light blue
+    accent: light blue
 
 # Extensions
 markdown_extensions:
