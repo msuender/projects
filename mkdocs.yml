@@ -8,9 +8,9 @@ site_description: >-
 # Page tree
 nav:
   - Home: index.md
-  - About: about.md
-  - Pages:
-    - Project1: pages/Project1.md
+  - Projekte:
+    - Marille: pages/marille.md
+    - mkrwan1300: pages/mkrwan1300.md
 
 # Configuration
 theme:
